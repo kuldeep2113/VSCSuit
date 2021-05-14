@@ -1,0 +1,522 @@
+<html>
+<head>
+<title>TestNG:  Regression-4</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression-4</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 11 15:16:18 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>229 seconds (229348 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='suite.test.GettingStartedTest.tc_1()'><b>tc_1</b><br>Test class: suite.test.GettingStartedTest<br>Test method: Verify getting started text<br/>
+<a href="#Output-1579280783" onClick='toggleBox("Output-1579280783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1579280783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1579280783">
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #username]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #password]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #submit]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: #submit]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+Element Found: ChromeDriver: chrome on XP (047c61ee1ec767e880515b679ec0f5bc)<br><br/>
+before getting text: Getting Started<br><br/>
+After getting text: Getting Started<br><br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>suite.test.GettingStartedTest@210366b4</td></tr>
+<tr>
+<td title='suite.test.GettingStartedTest.tc_2()'><b>tc_2</b><br>Test class: suite.test.GettingStartedTest<br>Test method: Verify about text is available correctly in the help drop down<br/>
+<a href="#Output-1746578747" onClick='toggleBox("Output-1746578747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1746578747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1746578747">
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #username]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #password]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #submit]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: #submit]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+Element Found: ChromeDriver: chrome on XP (09a1a7a8b3e66f2a167d42be01c5ea4d)<br><br/>
+before getting text: Virtual Storage Console for VMware vSphere is a vCenter Server plug-in that provides end-to-end lifecycle management for virtual machines in VMware environments using Fujitsu storage systems<br><br/>
+After getting text: Virtual Storage Console for VMware vSphere is a vCenter Server plug-in that provides end-to-end lifecycle management for virtual machines in VMware environments using Fujitsu storage systems<br><br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>suite.test.GettingStartedTest@210366b4</td></tr>
+<tr>
+<td title='suite.test.GettingStartedTest.tc_3()'><b>tc_3</b><br>Test class: suite.test.GettingStartedTest<br>Test method: Verify about text is available correctly in the help drop down<br/>
+<a href="#Output-62739928" onClick='toggleBox("Output-62739928", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-62739928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62739928">
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #username]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #password]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #submit]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: #submit]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+Element Found: ChromeDriver: chrome on XP (b8fea5df1188ef5b07a44ac3eaa15950)<br><br/>
+before getting text: Add Storage System<br><br/>
+After getting text: Add Storage System<br><br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>suite.test.GettingStartedTest@210366b4</td></tr>
+<tr>
+<td title='suite.test.GettingStartedTest.tc_4()'><b>tc_4</b><br>Test class: suite.test.GettingStartedTest<br>Test method: Verify about text is available correctly in the help drop down<br/>
+<a href="#Output-1881419576" onClick='toggleBox("Output-1881419576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1881419576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1881419576">
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #username]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #password]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #submit]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: #submit]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+Element Found: ChromeDriver: chrome on XP (62d954cb14ce276a81351670046b088c)<br><br/>
+before getting text: Add storage systems to Virtual Storage Console.<br><br/>
+After getting text: Add storage systems to Virtual Storage Console.<br><br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>suite.test.GettingStartedTest@210366b4</td></tr>
+<tr>
+<td title='suite.test.GettingStartedTest.tc_5()'><b>tc_5</b><br>Test class: suite.test.GettingStartedTest<br>Test method: Verify about text is available correctly in the help drop down<br/>
+<a href="#Output-550707" onClick='toggleBox("Output-550707", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-550707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-550707">
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #username]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #username]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #password]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #password]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #submit]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: #submit]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: div>vsc-navigation-view-menu>clr-dropdown]<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)] -> css selector: span[class$='_vschtmlplugin-vendorIcon18']]<br><br/>
+Navigating to url: https://10.141.33.170/ui<br><br/>
+Navigated to url: https://10.141.33.170/ui<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Finding Element by locator: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+Element Found: ChromeDriver: chrome on XP (53c771d2fd814661514a3a5ddb0ca769)<br><br/>
+before getting text: ADD<br><br/>
+After getting text: ADD<br><br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>suite.test.GettingStartedTest@210366b4</td></tr>
+</table><p>
+</body>
+</html>

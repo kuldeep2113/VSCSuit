@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [VSC Automation Suite]">
+  <parameter name="browser" value="chrome-japanese"/>
+  <parameter name="env" value="lenovo"/>
+  <listeners>
+    <listener class-name="suite.listener.ExtentReportListener"/>
+  </listeners>
+  <test name="Parallel Testing(failed)" parallel="classes">
+    <groups>
+      <run>
+        <exclude name="done"/>
+        <exclude name="brokenTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="suite.test.RCTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="RC_8"/>
+          <include name="setUpEnv"/>
+          <include name="RC_7"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- suite.test.RCTest -->
+    </classes>
+  </test> <!-- Parallel Testing(failed) -->
+</suite> <!-- Failed suite [VSC Automation Suite] -->

@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Browsers support chrome, chrome-headless, chrome-eng ,chrome-chinese 
+	,chrome-japanese -->
+<!-- Environments support lenovo, fujitsu, netapp -->
+<suite name="VSC Automation Suite" 	thread-count="10" verbose="5">
+
+<listeners>
+		<listener class-name="suite.listener.ExtentReportListener" />
+	</listeners>
+	<!-- <suite name="RWS Automation Suite" verbose="1"> -->
+	<parameter name="env" value="fujitsu" />
+	<parameter name="browser" value="chrome-japanese" />
+	<test name="Regression-1" >
+		<groups>
+			<run>
+				<!--  <exclude name="done" /> -->
+				<exclude name="done" />
+				<!-- <exclude name="done" /> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="suite.base.TestBase" />
+			<!--  <class name="suite.test.LoginPageTest" />
+			<class name="suite.test.ControlPanelTest" />
+			<class name="suite.test.AboutPageTest" />
+			<class name="suite.test.GettingStartedTest" />   -->
+			 <class name="suite.test.RCTest" /> 
+			 <!-- <class name="suite.test.SCPTest" />  -->
+
+		</classes>
+	</test>
+
+</suite>

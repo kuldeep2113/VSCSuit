@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7687" started-at="2021-02-11T08:11:06Z" finished-at="2021-02-11T08:11:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7687" started-at="2021-02-11T08:11:06Z" finished-at="2021-02-11T08:11:14Z">
+      <class name="suite.test.Demo">
+        <test-method status="PASS" signature="setUpEnv(java.lang.String)[pri:0, instance:suite.test.Demo@3108bc]" name="setUpEnv" is-config="true" duration-ms="42" started-at="2021-02-11T13:41:06Z" finished-at="2021-02-11T13:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fujitsu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnv -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:suite.test.Demo@3108bc]" name="setDriver" is-config="true" duration-ms="6357" started-at="2021-02-11T13:41:06Z" finished-at="2021-02-11T13:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-eng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tc_1()[pri:0, instance:suite.test.Demo@3108bc]" name="tc_1" duration-ms="17" started-at="2021-02-11T13:41:13Z" description="Verify about text " finished-at="2021-02-11T13:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_1 -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:suite.test.Demo@3108bc]" name="screenShot" is-config="true" duration-ms="1196" started-at="2021-02-11T13:41:13Z" finished-at="2021-02-11T13:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_1 status=SUCCESS method=Demo.tc_1()[pri:0, instance:suite.test.Demo@3108bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- suite.test.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
